@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NPO Register</title>
+	<meta charset = "UTF-8">
+	<link rel="stylesheet" href="guardianstylesheet.css">
+</head>
+<body>
+
+	<h1>CSV Registration</h1>
+	
+	<nav class="navbar">
+		<ul>
+			<li><a href="guardianlink.php">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="CSVolunteers.html">Cybersecurity Volunteers</a></li>
+			<li><a href="NPO.html">NPOs</a></li>
+			<li><a href="Admin.html">Admin</a></li>
+			<li><a href="messages.php">Messages</a></li>
+		</ul>
+	</nav>
+	
+	<p>Please send your completed Criminal Background Check (in pdf format) to our Admin team at Mithrandir@guardianlink.ca<br>
+	Once completed, enter "Completed" next to 'Criminal Background Check'<br>
+	If unable to do so, enter "Not Completed" next to 'Criminal Background Check'</p>
+	
+	<form action="csvregister.php" method="post" novalidate>
+		<div>
+			<label for="username">Username</label>
+			<input type="text" id="username" name="username">
+		</div>
+		
+		<div>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email">
+		</div>
+		
+		<div>
+			<label for="name">Full Name</label>
+			<input type="text" id="name" name="name">
+		</div>
+		
+		<div>
+			<label for="avh">Available # of hours/week</label>
+			<input type="text" id="avh" name="avh">
+		</div>
+		
+		<div>
+			<label for="ccb">Criminal Background Check</label>
+			<input type="text" id="ccb" name="ccb">
+		</div>
+		
+		<div>
+			<label for="lip">LinkedIn Profile</label>
+			<input type="text" id="lip" name="lip">
+		</div>
+		
+		<div>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password">
+		</div>
+		
+		<div>
+			<label for="password_confirmation">Repeat password</label>
+			<input type="password" id="password_confirmation" name="password_confirmation">
+		</div>
+		
+		<button style="font-size: 15px">Register</button>
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,59 @@
+body{
+	background-image: url(capstonepics/darkerimage.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	h1{
+		text-align: center;
+		color: white;
+		font-size: 75px;
+	}
+	h2{
+		color: white;
+	}
+	p{
+		color: #a78824;
+		font-size: 20px;
+	}
+	label{
+		color: white;
+		font-size: 20px;
+	}
+	table{
+		border-collapse: collapse;
+		width: 100%;
+		color: white;
+		font-family: monospace;
+		font-size: 20px;
+		text-align: left;
+		background-color: black;
+	}
+}
+	.navbar ul{
+		display: table;
+		list-style-type: none;
+		background-color: black;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden;
+	}
+	.navbar a{
+		color: white;
+		text-decoration: none;
+		padding: 15px;
+		display: block;
+		text-align: center;
+	}
+	.navbar a:hover{
+		background-color: gray;
+	}
+	.navbar li{
+		float: left;
+	}
+	.wrapper{
+		margin: 150px auto;
+		width: 70%;
+	}
+		
